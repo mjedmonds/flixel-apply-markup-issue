@@ -1,0 +1,36 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+
+		{
+			"name": "Build + Debug",
+			"type": "lime",
+			"request": "launch"
+		},
+		{
+			"name": "Debug",
+			"type": "lime",
+			"request": "launch",
+			"preLaunchTask": null
+		},
+		{
+			"name": "Macro",
+			"type": "haxe-eval",
+			"request": "launch"
+		},
+		{
+			"name": "Python: current file",
+			"type": "python",
+			"request": "launch",
+			"program": "${file}",
+			"console": "integratedTerminal"
+		},
+		{
+			"name": "Python: WebSocketServer.py",
+			"type": "python",
+			"request": "launch",
+			"program": "${workspaceFolder}/server/WebSocketServer.py",
+			"console": "integratedTerminal",
+		},
+	]
+}

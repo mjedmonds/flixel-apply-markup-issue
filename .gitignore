@@ -1,0 +1,14 @@
+*__pycache__*
+export/client/*
+!export/client/.dummy
+server/generated/*
+!server/generated/__init__.py
+**/.DS_Store
+*.pyc
+*.egg-info*
+*.so
+*.o
+server/*.c
+server/*.so
+*.eggs*
+*.log
